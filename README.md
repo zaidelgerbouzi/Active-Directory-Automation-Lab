@@ -33,6 +33,14 @@ In this lab, I encountered and resolved several complex issues that simulated hi
 ---
 
 ## 🧠 Skills Learnt
-* **Enterprise Identity Management:** Gained hands-on experience in managing the lifecycle of users, groups, and Organizational Units (OUs) within a Windows Domain environment.
-* **Network Protocol Mastery:** Developed a deep understanding of how **DNS (SRV records)** and **DHCP** interact to provide service discovery and automated addressing in a corporate network.
-* **Automation Efficiency:** Learned to leverage **PowerShell** to eliminate repetitive administrative tasks, such as bulk user creation, reducing human
+
+### 🛠️ Advanced Troubleshooting (Layer 7 & Network)
+* **DNS & Service Discovery:** Mastered the diagnosis of "Domain Not Found" errors by differentiating between ICMP reachability and Active Directory SRV record requirements.
+* **Security & Authentication Sync:** Resolved Kerberos "Clock Skew" errors by performing manual time-synchronization between clients and servers to meet strict security window requirements.
+* **Network Path Isolation:** Identified and resolved "Blackout" connectivity issues by auditing VirtualBox internal network names and disabling conflicting NAT adapters.
+
+### ⚙️ Systems & Automation
+* **Enterprise Identity Management:** Gained hands-on experience in managing the lifecycle of users, groups, and Organizational Units (OUs) within a Windows Domain.
+* **Network Protocol Mastery:** Developed a deep understanding of how **DNS** and **DHCP** interact to provide automated addressing and name resolution in a corporate network.
+* **Automation Efficiency:** Learned to leverage **PowerShell** to eliminate repetitive administrative tasks, reducing deployment time and human error.
+* **Virtual Infrastructure Design:** Configured complex dual-NIC virtual networking topologies to bridge private internal networks with external internet gateways via NAT/RRAS.
